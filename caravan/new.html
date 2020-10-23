@@ -1,0 +1,32 @@
+<html>
+<body bgcolor=#49AE9B>
+<p>Image:<input type="file" name="pic" accept="image/*"></p>
+<br>
+<p> Location: <textarea rows=4 cols=10 id="demo"></textarea> </p>
+<button onclick="getLocation()"> Get Location</button>
+<p id="demo"></p>
+<button data-section-id="ad" data-tooltip="Copy address" vet="38087" jsaction="pane.info.copyText;clickmod:pane.info.copyText;focus:pane.focusTooltip;blur:pane.blurTooltip" data-hide-tooltip-on-mouse-move="true" jstcache="938" jsinstance="*0" class="section-info-action-icon-button" jsan="7.section-info-action-icon-button,0.data-section-id,0.data-tooltip,0.jstrack,0.ved,0.vet,0.jsaction,0.data-hide-tooltip-on-mouse-move" jstrack="oLlxXKGkLIaUwgP7xa_wBA:87" ved="1i:1,t:38087,e:0,p:oLlxXKGkLIaUwgP7xa_wBA:87"></button>
+<script>
+var x = document.getElementById("demo");
+function getLocation() 
+{
+	window.open("https://www.google.com/maps/search/my+location+now/");
+
+}
+</script>
+<h3>Description</h3><textarea rows=10 cols=50></textarea>
+<h3>Creature</h3><select size=2>
+<option>Human</option>
+<option>Dog</option>
+<option>Cat</option>
+<option>Cattle</option>
+<option>Bird</option>
+<option>Other</option>
+</select>
+<br>
+<input type=button name="post" value="post"><br>
+<a href="main.html">
+<input type=button name="end" value="Back"></body
+</a>
+</body>
+</html>
